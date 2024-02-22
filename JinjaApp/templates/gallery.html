@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+{% load static %}
+{% block title %}My gallerypage{% endblock %}
+{% block header %}
+    Welcome to Safari mid-class
+{% endblock %}
+{% block content %}
+    <p>This is my Gallery Page</p>
+    {% load static %}
+     <img src="{% static 'images/alexus-goh-w7k0G-yw46I-unsplash.jpg' %}" alt="" height=200 width=200"">
+     <img src="{% static 'images/chris-karidis-nnzkZNYWHaU-unsplash.jpg' %}" alt="" height=200 width=200"">
+     <img src="{% static 'images/cristofer-maximilian-uQDRDqpYJHI-unsplash.jpg' %}" alt="" height=200 width=200"">
+     <img src="{% static 'images/izzy-gerosa-RgplfXbxLFs-unsplash.jpg' %}" alt="" height=200 width=190"">
+     <img src="{% static 'images/wael-hneini-lMzbYcCsIpo-unsplash.jpg' %}" alt="" height=200 width=190"">
+
+{% endblock %}
